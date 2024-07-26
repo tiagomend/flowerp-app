@@ -1,0 +1,12 @@
+.logoSection {
+    display: flex;
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.logoSection img {
+    height: 40px;
+    width: 40px;
+}
