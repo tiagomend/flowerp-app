@@ -76,7 +76,7 @@
   --info-800:#406b84;
   --info-900:#315265;
 
-  --border-color:#DCDFE4;
+  --border-color: var(--gray-600);
 
   --font-color: #86909f;
 
