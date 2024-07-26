@@ -1,0 +1,11 @@
+.mainSide {
+    width: var(--main-side-width);
+    height: var(--total-screen-height);
+    overflow: hidden;
+}
+
+.mainSide main {
+    padding: var(--spacing-4);
+    width: 100%;
+    max-height: var(--total-screen-height);
+}
