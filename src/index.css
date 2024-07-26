@@ -1,0 +1,148 @@
+:root {
+  --primary-50:#e6f6ff;
+  --primary-100:#b0e2ff;
+  --primary-200:#8ad5ff;
+  --primary-300:#54c1ff;
+  --primary-400:#33b5ff;
+  --primary-500:#00a3ff;
+  --primary-600:#0094e8;
+  --primary-700:#0074b5;
+  --primary-800:#005a8c;
+  --primary-900:#00446b;
+
+  --secondary-50: #fcfcfc;
+  --secondary-100:#f4f5f7;
+  --secondary-200:#eff0f3;
+  --secondary-300:#e8eaed;
+  --secondary-400:#e3e5e9;
+  --secondary-500:#dcdfe4;
+  --secondary-600:#c8cbcf;
+  --secondary-700:#9c9ea2;
+  --secondary-800:#797b7d;
+  --secondary-900:#5c5e60;
+
+  --gray-50: #fdfefe;
+  --gray-100:#fafafb;
+  --gray-200:#f8f8f9;
+  --gray-300:#f4f5f6;
+  --gray-400:#f2f3f4;
+  --gray-500:#eff0f1;
+  --gray-600:#d9dadb;
+  --gray-700:#aaaaab;
+  --gray-800:#838485;
+  --gray-900:#646565;
+
+  --error-50: #fff0f0;
+  --error-100:#fed1d1;
+  --error-200:#fdbaba;
+  --error-300:#fc9b9b;
+  --error-400:#fc8888;
+  --error-500:#fb6a6a;
+  --error-600:#e46060;
+  --error-700:#b24b4b;
+  --error-800:#8a3a3a;
+  --error-900:#692d2d;
+
+  --success-50: #f2fdf5;
+  --success-100:#d6f8e1;
+  --success-200:#c2f5d2;
+  --success-300:#a7f1be;
+  --success-400:#95eeb1;
+  --success-500:#7bea9e;
+  --success-600:#70d590;
+  --success-700:#57a670;
+  --success-800:#448157;
+  --success-900:#346242;
+
+  --warning-50: #fffaf0;
+  --warning-100:#feeed1;
+  --warning-200:#fee6ba;
+  --warning-300:#fdda9b;
+  --warning-400:#fdd387;
+  --warning-500:#fcc869;
+  --warning-600:#e5b660;
+  --warning-700:#b38e4b;
+  --warning-800:#8b6e3a;
+  --warning-900:#6a542c;
+
+  --info-50: #f1f9fe;
+  --info-100:#d4ecfa;
+  --info-200:#c0e3f8;
+  --info-300:#a3d7f5;
+  --info-400:#91cff3;
+  --info-500:#75c3f0;
+  --info-600:#6ab1da;
+  --info-700:#538aaa;
+  --info-800:#406b84;
+  --info-900:#315265;
+
+  --border-color:#DCDFE4;
+
+  --font-color: #86909f;
+
+  --white-color: #ffffff;
+  
+  --spacing-0:   0px;
+  --spacing-1:   4px;
+  --spacing-2:   8px;
+  --spacing-3:  12px;
+  --spacing-4:  16px;
+  --spacing-5:  20px;
+  --spacing-6:  24px;
+  --spacing-7:  28px;
+  --spacing-8:  32px;
+  --spacing-9:  36px;
+  --spacing-10: 40px;
+
+  --side-nav-bar-width: 100px;
+  --main-side-width: 100%;
+  --total-screen-height: 100vh;
+
+  --font-primary: 'Red Hat Display', sans-serif;
+}
+
+* {
+  margin: var(--spacing-0);
+  padding: var(--spacing-0);
+  font-family: var(--font-primary);
+  box-sizing: border-box;
+  color: var(--secondary-900);
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-100);
+}
+
+/* View Grid Layout */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 12px 0px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+      width: 100%;
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
+}
