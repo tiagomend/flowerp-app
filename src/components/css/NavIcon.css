@@ -19,19 +19,19 @@
 }
 
 .navIcon:active {
-    background-color: #bbe6ff;
-    outline: 2px solid #00A3FF;
+    background-color: var(--primary-100);
+    outline: 2px solid var(--primary-500);
 }
 
 .navIcon:active i {
-    color: #00A3FF;
+    color: var(--primary-500);
 }
 
 .navIcon.active {
-    background-color: #bbe6ff;
-    outline: 2px solid #00A3FF;
+    background-color: var(--primary-100);
+    outline: 2px solid var(--primary-500);
 }
 
 .navIcon.active i {
-    color: #00A3FF;
+    color: var(--primary-500);
 }
