@@ -1,0 +1,37 @@
+.navIcon {
+    background-color: var(--secondary-500);
+    border: none;
+    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+    padding: 10%;
+    cursor: pointer;
+}
+
+.navIcon i {
+    font-size: 25px;
+    color: var(--font-color);
+}
+
+.navIcon:hover {
+    background-color: var(--secondary-600);
+    outline: 3px solid var(--secondary-400);
+}
+
+.navIcon:active {
+    background-color: #bbe6ff;
+    outline: 2px solid #00A3FF;
+}
+
+.navIcon:active i {
+    color: #00A3FF;
+}
+
+.navIcon.active {
+    background-color: #bbe6ff;
+    outline: 2px solid #00A3FF;
+}
+
+.navIcon.active i {
+    color: #00A3FF;
+}
