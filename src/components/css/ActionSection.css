@@ -1,0 +1,24 @@
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white-color);
+    width: 100%;
+    padding: var(--spacing-4);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.actions div {
+    display: flex;
+    gap: 10px;
+}
+
+.actions h2 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.actions i {
+    font-size: 24px;
+}
