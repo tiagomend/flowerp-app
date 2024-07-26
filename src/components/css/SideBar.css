@@ -1,0 +1,17 @@
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: var(--side-nav-bar-width);
+    height: var(--total-screen-height);
+    background-color: var(--gray-500);
+}
+
+.sideBar nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-6);
+    height: 100%;
+}
