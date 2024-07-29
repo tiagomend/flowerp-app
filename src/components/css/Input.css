@@ -1,0 +1,13 @@
+.form-control {
+	background-color: #ffffff;
+	border: 1px solid var(--border-color);
+	border-radius: 4px;
+	padding: 5px 10px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.form-control:focus {
+	outline: 3px solid var(--primary-100);
+	border:1px solid var(--primary-400);
+}
