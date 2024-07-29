@@ -1,0 +1,56 @@
+.recordsTable {
+    width: 100%;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    max-height: 60vh;
+    overflow: scroll;
+    overflow-x: scroll;
+    margin-top: 20px; /* Tirar */
+}
+
+
+.recordsTable table, th, td {
+    border: 1px solid var(--border-color);
+    padding: 4px 10px;
+    border-collapse: collapse;
+}
+
+.recordsTable th.index, td.index{
+    max-width: 50px;
+    text-align: center;
+}
+
+.recordsTable th.fix, td.fix{
+    width: 250px;
+}
+
+.recordsTable th.fit, td.fit{
+    width: fit-content;
+}
+
+.recordsTable th {
+    background-color: var(--gray-500);
+}
+
+.recordsTable table {
+    margin-bottom: 16px;
+}
+
+.recordsTable td:focus {
+    outline: 2px solid #00A3FF;
+    border: 1px solid var(--white-color);
+}
+
+.recordsTable button {
+    float: right;
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--gray-50);
+    cursor: pointer;
+}
+
+.recordsTable button i {
+    color: var(--gray-500);
+}
