@@ -10,27 +10,25 @@
 }
 
 .modal-content {
-	background-color: #ffffff;
+	background-color: var(--secondary-100);
 	width: 700px;
 	margin: 10% auto;
-	padding: 30px 30px;
+	padding: 12px;
 	border-radius: 4px;
 	box-shadow: 2px 2px 5px #5c5c5c48;
 }
 
 .close-modal {
-	background-color: var(--secondary-200);
+	background-color: var(--secondary-400);
 	padding: 0px 8px;
 	border-radius: 8px;
 	border: none;
 	color: #aaaaaa;
 	float: right;
-	margin-top: -20px;
-	margin-right: -20px;
 	font-size: 28px;
 	cursor: pointer;
 }
 
 .close-modal:hover {
-	background-color: var(--secondary-500);
+	background-color: var(--secondary-600);
 }
