@@ -1,0 +1,13 @@
+.box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.box.end {
+    justify-content: end;
+}
+
+.box.space_between {
+    justify-content: space-between;
+}
